@@ -8,6 +8,7 @@ inventory = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1} #DON'T CHANGE 
 
 # 1. Make a copy of inventory  and save it to a variable called stock_list  using a dictionary method we've covered
 stock_list = dict(inventory)
+# stock_list = inventory.copy()
 print(stock_list)
 
 # 2. Add the value 18 to stock_list  under the key "cookie"
